@@ -23,6 +23,11 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        "no-empty-function": 0,
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "no-empty-pattern": "off",
+        "react-hooks/exhaustive-deps": "off"
     },
     "settings": {
         "react": {

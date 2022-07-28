@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '@/scss/app.scss';
+import ModalComponent from '@/components/ModalComponent';
 import App from '@/App';
 import { BrowserRouter } from 'react-router-dom';
-
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +11,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <BrowserRouter>
-    <App />
+    <ModalComponent>
+      <App />
+    </ModalComponent>
   </BrowserRouter>
 );
 
