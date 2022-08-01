@@ -6,7 +6,7 @@ interface ModalProps {
     children: JSX.Element,
 }
 
-export default function Modal({ children }: ModalProps) {
+export default function ModalWrapper({ children }: ModalProps) {
     const { visibility, close } = useModal();
 
     return ReactDOM.createPortal(

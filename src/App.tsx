@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import HomePage from '@/components/HomePage';
-import PostsPage from '@/components/PostsPage';
-import PostPage from '@/components/PostPage';
+import HomePage from '@/pages/HomePage';
+import PostsPage from '@/pages/PostsPage';
+import PostPage from '@/pages/PostPage';
 import Layout from './components/Layout';
-import NotFoundPage from './components/NotFoundPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   return (
