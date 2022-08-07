@@ -39,7 +39,13 @@ export default function PostsPage() {
             <button type="button" onClick={() => open('post_form')}>Open modal</button>
             <button type="button" onClick={close}>Close modal</button>
             <ModalWrapper>
-                {currentModal && React.cloneElement(currentModal.component, { ...currentModal.props })}
+                {
+                    currentModal &&
+                    React.cloneElement(
+                        currentModal.component,
+                        { ...currentModal.props }
+                    )
+                }
             </ModalWrapper>
         </>
     )

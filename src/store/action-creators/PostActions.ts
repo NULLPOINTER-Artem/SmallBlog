@@ -1,6 +1,6 @@
 import { IPost } from "@/types/IPost";
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 
 const BASE_API_URL = 'https://bloggy-api.herokuapp.com';
 
